@@ -1,9 +1,9 @@
-*,
+/* *,
 *:before,
 *:after {
     box-sizing: border-box;
 }
-
+ */
 body,
 html {
     width: 100vw;
@@ -25,7 +25,7 @@ h1 {
 main {
     background-color: #fffff9;
     width: 20%;
-    height: 95%;
+    height: 82.5vh;
     margin: 40px auto;
     padding: 4px 18px;
     border-radius: 15px;
@@ -40,7 +40,7 @@ main {
     font-size: 1.25rem;
     text-align: end;
     padding: 10px 16px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .buttons {
